@@ -1,0 +1,230 @@
+{
+	"OpenData": {
+		"OpenDataRow": [
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F1 (Francia-Orreaga/Roncesvalles)",
+				"MUNICIPIO": "Luzaide/Valcarlos",
+				"COORD_X": "638220",
+				"COORD_Y": "4772411"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F1 (Francia-Orreaga/Roncesvalles)",
+				"MUNICIPIO": "Luzaide/Valcarlos",
+				"COORD_X": "635886",
+				"COORD_Y": "4765575"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F1 (Francia-Orreaga/Roncesvalles)",
+				"MUNICIPIO": "Luzaide/Valcarlos",
+				"COORD_X": "641441",
+				"COORD_Y": "4767692"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F1 (Francia-Orreaga/Roncesvalles)",
+				"MUNICIPIO": "Roncesvalles/Orreaga",
+				"COORD_X": "637061",
+				"COORD_Y": "4763565"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F2 (Orreaga/Roncesvalles-Zubiri)",
+				"MUNICIPIO": "Aurizberri/Espinal",
+				"COORD_X": "633548",
+				"COORD_Y": "4760736"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F2 (Orreaga/Roncesvalles-Zubiri)",
+				"MUNICIPIO": "Aurizberri/Espinal",
+				"COORD_X": "633199",
+				"COORD_Y": "4760197"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F3 (Zubiri-Pamplona/Iruña)",
+				"MUNICIPIO": "Esteribar",
+				"COORD_X": "617504",
+				"COORD_Y": "4749015"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F3 (Zubiri-Pamplona/Iruña)",
+				"MUNICIPIO": "Esteribar",
+				"COORD_X": "616472",
+				"COORD_Y": "4746364"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F3 (Zubiri-Pamplona/Iruña)",
+				"MUNICIPIO": "Esteribar",
+				"COORD_X": "615839",
+				"COORD_Y": "4745643"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F4 (Pamplona/Iruña-Puente la Reina/Gares)",
+				"MUNICIPIO": "Cizur",
+				"COORD_X": "603259",
+				"COORD_Y": "4732522"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F5 (Puente la Reina/Gares-Estella/Lizarra)",
+				"MUNICIPIO": "Mañeru",
+				"COORD_X": "593567",
+				"COORD_Y": "4724940"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F5 (Puente la Reina/Gares-Estella/Lizarra)",
+				"MUNICIPIO": "Cirauqui",
+				"COORD_X": "590571",
+				"COORD_Y": "4725809"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F5 (Puente la Reina/Gares-Estella/Lizarra)",
+				"MUNICIPIO": "Cirauqui",
+				"COORD_X": "590541",
+				"COORD_Y": "4725824"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F5 (Puente la Reina/Gares-Estella/Lizarra)",
+				"MUNICIPIO": "Villatuerta",
+				"COORD_X": "581882",
+				"COORD_Y": "4724337"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F5 (Puente la Reina/Gares-Estella/Lizarra)",
+				"MUNICIPIO": "Villatuerta",
+				"COORD_X": "581525",
+				"COORD_Y": "4723888"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F6 (Estella/Lizarra-Los Arcos)",
+				"MUNICIPIO": "Villamayor de Monjardín",
+				"COORD_X": "573882",
+				"COORD_Y": "4720402"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F6 (Estella/Lizarra-Los Arcos)",
+				"MUNICIPIO": "Azqueta",
+				"COORD_X": "575403",
+				"COORD_Y": "4719984"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F6 (Estella/Lizarra-Los Arcos)",
+				"MUNICIPIO": "Urbiola",
+				"COORD_X": "572808",
+				"COORD_Y": "4718584"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F7 (Los Arcos-Logroño)",
+				"MUNICIPIO": "Torres del Río",
+				"COORD_X": "560061",
+				"COORD_Y": "4711386"
+			},
+			{
+				"CAMINO": "Francés",
+				"ETAPA": "F7 (Los Arcos-Logroño)",
+				"MUNICIPIO": "Viana",
+				"COORD_X": "550315",
+				"COORD_Y": "4705408"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A1 (Huesca-Sangüesa/Zangoza)",
+				"MUNICIPIO": "Sangüesa",
+				"COORD_X": "645107",
+				"COORD_Y": "4714328"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Izco",
+				"COORD_X": "629026",
+				"COORD_Y": "4724109"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Salinas de Ibargoiti",
+				"COORD_X": "624011",
+				"COORD_Y": "4727791"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Rocaforte",
+				"COORD_X": "640088",
+				"COORD_Y": "4717427"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Rocaforte",
+				"COORD_X": "638890",
+				"COORD_Y": "4717768"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Rocaforte",
+				"COORD_X": "638351",
+				"COORD_Y": "4718180"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Aibar",
+				"COORD_X": "636589",
+				"COORD_Y": "4719229"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A2 (Sangüesa/Zangoza-Monreal)",
+				"MUNICIPIO": "Aibar",
+				"COORD_X": "635682",
+				"COORD_Y": "4719795"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A3 (Monreal-Puente la Reina/Gares)",
+				"MUNICIPIO": "Muruarte de Reta",
+				"COORD_X": "610173",
+				"COORD_Y": "4725892"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A3 (Monreal-Puente la Reina/Gares)",
+				"MUNICIPIO": "Muruarte de Reta",
+				"COORD_X": "609515",
+				"COORD_Y": "4724940"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A3 (Monreal-Puente la Reina/Gares)",
+				"MUNICIPIO": "Muruzabal",
+				"COORD_X": "601366",
+				"COORD_Y": "4725396"
+			},
+			{
+				"CAMINO": "Aragonés",
+				"ETAPA": "A3 (Monreal-Puente la Reina/Gares)",
+				"MUNICIPIO": "Muruzabal",
+				"COORD_X": "601549",
+				"COORD_Y": "4725369"
+			}
+		]
+	}
+}
