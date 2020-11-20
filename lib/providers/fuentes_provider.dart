@@ -21,16 +21,38 @@ class FuentesProvider {
   }
 
   Future<List<String>> cargarEtapas(String camino) async {
+    if (this.camino == camino) {
+      return lstEtapas;
+    } else {
+      this.camino = camino;
+    }
+    if (lstFuentes.length == 0) {
+      await cargarFuentes();
+    }
     lstEtapas = [];
-    // Código incompleto a implementar
-    await new Future.delayed(const Duration(seconds: 1));
+    lstFuentes.forEach((fuente) {
+      if ((fuente.camino == camino) && (lstEtapas.indexOf(fuente.etapa) < 0)) {
+        lstEtapas.add(fuente.etapa);
+      }
+    });
     return lstEtapas;
   }
 
   Future<List<Fuente>> cargarFuentesFiltradas(String etapa) async {
+    if (this.etapa == etapa) {
+      return lstFuentesFiltradas;
+    } else {
+      this.etapa = etapa;
+    }
+    if (lstFuentes.length == 0) {
+      await cargarFuentes();
+    }
     lstFuentesFiltradas = [];
-    // Código incompleto a implementar
-    await new Future.delayed(const Duration(seconds: 1));
+    lstFuentes.forEach((fuente) {
+      if (fuente.etapa == etapa) {
+        lstFuentesFiltradas.add(fuente);
+      }
+    });
     return lstFuentesFiltradas;
   }
 }

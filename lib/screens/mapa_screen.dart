@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
+import 'package:fuentes/models/fuente_model.dart';
+import 'package:get/get.dart';
 import 'package:latlong/latlong.dart';
+import 'package:utm/utm.dart';
 
 class MapaScreen extends StatefulWidget {
   @override
@@ -8,15 +11,22 @@ class MapaScreen extends StatefulWidget {
 }
 
 class _MapaScreenState extends State<MapaScreen> {
+  Fuente fuente;
   LatLng latLng;
 
   @override
   Widget build(BuildContext context) {
-    //Coordenadas utilizadas para pruebas que hay que reemplazar
-    latLng = new LatLng(42.81822365, -1.64403897);
+    fuente = Get.arguments;
+    final latlon = UTM.fromUtm(
+      easting: double.parse(fuente.coordX),
+      northing: double.parse(fuente.coordY),
+      zoneNumber: 30,
+      zoneLetter: "N",
+    );
+    latLng = new LatLng(latlon.lat, latlon.lon);
     return Scaffold(
       appBar: AppBar(
-        title: Text("AAAAA"),
+        title: Text(fuente.municipio),
       ),
       body: _flutterMap(),
     );
@@ -40,9 +50,8 @@ class _MapaScreenState extends State<MapaScreen> {
       urlTemplate: "https://api.tiles.mapbox.com/v4/"
           "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
       additionalOptions: {
-        //Token no valido a reemplazar por uno activo
         'accessToken':
-            'pk.eyJ1IjoiYWV0eGFiYW8iLCJhIjoiY2tnNHltbHZyMHBqMzJ5cjI5bXd4YzRkOSJ9.AA2XNQgBS47ru9ZXidYX2g',
+            'pk.eyJ1IjoiYWV0eGFiYW8iLCJhIjoiY2toamZsdmF2MHd4ajJzcDZtZDJmczFieCJ9.nIpNzVE34B8aTGo5bahEJg',
         'id': 'mapbox.satellite',
       },
     );
@@ -51,7 +60,14 @@ class _MapaScreenState extends State<MapaScreen> {
   _markers() {
     return new MarkerLayerOptions(
       markers: [
-        //Código que hay que crear
+        new Marker(
+          width: 50.0,
+          height: 50.0,
+          point: latLng,
+          builder: (ctx) => new Container(
+            child: Icon(Icons.location_on),
+          ),
+        ),
       ],
     );
   }
